@@ -1,0 +1,27 @@
+{
+  "_comment": "Copy this file to business-data.local.json. Replace every placeholder only with values obtained from your local read-only connector exports. Never commit the local file.",
+  "supplierLabel": "REPLACE WITH SUPPLIER NAME",
+  "counterpartyKey": "REPLACE-WITH-GUID",
+  "sourceDocumentNumber": "",
+  "sourceDocumentDate": "",
+  "testInvoice": {
+    "marker": "KHLEB-TEST-CHANGE-ME",
+    "currencyKey": "REPLACE-WITH-GUID",
+    "contractKey": "REPLACE-WITH-GUID",
+    "warehouseKey": "REPLACE-WITH-GUID",
+    "priceTypeKey": "REPLACE-WITH-GUID",
+    "tradeObjectKey": "REPLACE-WITH-GUID",
+    "companyKey": "REPLACE-WITH-GUID",
+    "vatRateKey": "REPLACE-WITH-GUID",
+    "items": [
+      {
+        "unitKey": "REPLACE-WITH-GUID",
+        "itemKey": "REPLACE-WITH-GUID",
+        "quantity": 1,
+        "purchasePrice": 1,
+        "markupPercent": 0,
+        "retailPrice": 1
+      }
+    ]
+  }
+}

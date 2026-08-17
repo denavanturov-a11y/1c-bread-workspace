@@ -1,0 +1,39 @@
+# Secrets and machine-local settings
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+.codex-local/
+.claude/settings.local.json
+
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Web dependencies and generated output
+**/node_modules/
+web/.next/
+web/.vinext/
+web/dist/
+web/.wrangler/
+web/coverage/
+web/outputs/
+web/work/
+*.log
+
+# Connector output with 1C business data
+connector/business-data.local.json
+connector/dist/
+connector/diagnostics/
+connector/catalog-match/
+connector/miller-history/
+connector/test-write-preflight/
+connector/test-create-result/
+
+# Real backups must stay outside Git
+backups/*
+!backups/README.md
